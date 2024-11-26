@@ -1,8 +1,8 @@
 <template>
   <div v-if="selectedChallenge">
     <!-- Header Section -->
-    <div class="flex flex-col items-center gap-5 py-5 mx-3 text-center">
-      <div class="text-2xl font-medium">Turn the wheel, take a challenge!</div>
+    <div class="flex flex-col items-center gap-5 py-5 text-center">
+      <div class="text-xl lg:text-2xl font-medium">Turn the wheel, take a challenge!</div>
       <svg
         width="150"
         height="2"

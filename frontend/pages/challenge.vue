@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col items-center gap-3 mx-3 text-center">
+  <div class="flex flex-col items-center gap-3 text-center">
     <!-- Header Section -->
-    <div class="text-2xl font-medium">
+    <div class="text-xl lg:text-2xl font-medium">
       Turn the wheel, take a challenge!
     </div>
     <svg width="150" height="1" viewBox="0 0 150 1" fill="none" xmlns="http://www.w3.org/2000/svg" ><line y1="0.5" x2="150" y2="0.5" stroke="#0A2E36" /></svg>
