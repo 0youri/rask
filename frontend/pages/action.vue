@@ -13,7 +13,7 @@
         <line y1="0.5" x2="150" y2="0.5" stroke="#0A2E36" />
       </svg>
       <div class="flex justify-center w-5/6 lg:w-1/4">
-        <img :src="`/img/${getRandomQuote()}.webp`" class="rounded-3xl" alt="Motivational Quote" />
+        <img :src="`${baseURL}img/${getRandomQuote()}.webp`" class="rounded-3xl" alt="Motivational Quote" />
       </div>
     </div>
 
@@ -66,6 +66,9 @@
   import { storeToRefs } from "pinia";
   import { useChallengeStore } from "~/stores/challengeStore";
 
+  // Url
+  const config = useRuntimeConfig();
+  const baseURL = config.app.baseURL;
   // Store
   const { loadLocalStorage } = useChallengeStore();
   const { selectedChallenge } = storeToRefs(useChallengeStore());
@@ -76,6 +79,7 @@
   const challengeDoneText = ref('')
   const challengeDoneHeader = ref('')
   const confettiState = ref(false)
+  
 
   const fail = () => {
     modalState.value = true;
