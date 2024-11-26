@@ -18,7 +18,12 @@
       @close="closeModal"
       @regenerate="triggerRotateStart"
     >
-      {{ chosen }}
+      <template #header>
+        Your challenge is chosen!
+      </template>
+      <template #default>
+        {{ chosen }}
+      </template>
     </Modal>
   </div>
 </template>
@@ -59,6 +64,7 @@ const canvasOptions = {
   borderWidth: 5,
   fontSize: 40,
   textRadius: 175,
+  btnWidth: 120
 };
 
 // Simulated backend request for verification

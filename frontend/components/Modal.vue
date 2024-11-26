@@ -16,7 +16,7 @@
       <div class="relative bg-white text-dark rounded-3xl overflow-hidden">
         <!-- Card Header -->
         <header class="text-2xl font-bold text-center p-6">
-          {{ challengeDone ? 'Congratulation! 🔥' : 'Your challenge is chosen!' }}
+          <slot name="header"></slot>
         </header>
 
         <!-- Slot for Custom Content -->
@@ -45,7 +45,7 @@
           </div>
           <div v-else class="grid grid-cols-1">
             <NuxtLink
-              to="category"
+              to="/"
               class="bg-accent-light text-2xl text-center p-4 hover:bg-accent-light/80 transition rounded-b-3xl"
             >
               🏁
