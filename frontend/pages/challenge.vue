@@ -1,13 +1,12 @@
 <template>
-  <div>
+  <div class="flex flex-col items-center gap-3 mx-3 text-center">
     <!-- Header Section -->
-    <div class="flex flex-col items-center gap-3 divide-y divide-dark">
-      <div class="text-2xl font-medium">
-        Turn the wheel, take a challenge!
-      </div>
-      <div class="text-md py-5">
-        secondly, turn to get a <span class="italic">challenge</span>
-      </div>
+    <div class="text-2xl font-medium">
+      Turn the wheel, take a challenge!
+    </div>
+    <svg width="150" height="1" viewBox="0 0 150 1" fill="none" xmlns="http://www.w3.org/2000/svg" ><line y1="0.5" x2="150" y2="0.5" stroke="#0A2E36" /></svg>
+    <div class="text-md pb-5">
+      secondly, turn to get a <span class="italic">challenge</span>
     </div>
 
     <!-- Spin Wheel Component -->

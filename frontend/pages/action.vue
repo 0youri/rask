@@ -1,7 +1,7 @@
 <template>
   <div v-if="selectedChallenge">
     <!-- Header Section -->
-    <div class="flex flex-col items-center gap-5 py-5">
+    <div class="flex flex-col items-center gap-5 py-5 mx-3 text-center">
       <div class="text-2xl font-medium">Turn the wheel, take a challenge!</div>
       <svg
         width="150"
@@ -20,7 +20,7 @@
     <!-- Challenge Display -->
     <div class="text-center space-y-5">
       <p class="text-lg font-medium">Your challenge is</p>
-      <div class="w-screen bg-primary/25 text-center py-7 text-xl font-semibold">
+      <div class="w-screen bg-primary/25 text-center py-7 px-2 text-xl font-semibold">
         {{ selectedChallenge }}
       </div>
     </div>
