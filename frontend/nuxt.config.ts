@@ -7,6 +7,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt'
   ],
   app: {
-    baseURL: '/rask/',
+    baseURL: '/1app1week/rask/',
   }
 })
