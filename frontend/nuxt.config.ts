@@ -8,5 +8,8 @@ export default defineNuxtConfig({
   ],
   app: {
     baseURL: '/apps/rask/',
+    head: {
+      title: "Rask 🏋️‍♂️",
+    },
   }
 })
