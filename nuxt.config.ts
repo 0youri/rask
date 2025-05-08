@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt'
   ],
   app: {
-    baseURL: '/apps/rask/',
     head: {
       title: "Rask 🏋️‍♂️",
     },
