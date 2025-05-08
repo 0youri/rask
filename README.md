@@ -1,75 +1,28 @@
-# Nuxt Minimal Starter
+# 🎲 Rask – Random Actions to Shake Things Up
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Rask** is a spontaneous challenge app built in just one week as part of my 1 App in 1 Week Challenge. It’s a fun and fast way to spark creativity, boost your energy, and break the monotony—one random task at a time.
 
-## Setup
+🧪 **Try it now** → [https://1app1week-rask.netlify.app/](https://1app1week-rask.netlify.app/)
 
-Make sure to install dependencies:
+---
+
+## ⚙️ Tech Stack
+
+- **Framework**: [Nuxt 3](https://nuxt.com)
+- **Language**: [TypeScript](https://www.typescriptlang.org)
+- **Design**: [TailwindCSS](https://tailwindcss.com)
+- **State Management**: [Pinia](https://pinia.vuejs.org)
+- **Animations**: [GSAP](https://greensock.com/gsap/)
+- **Deployment**: [Netlify](https://www.netlify.com)
+
+---
+
+## 🛠️ Run Locally
+
+Make sure you have Node.js installed.
 
 ```bash
-# npm
+git clone https://github.com/0youri/rask.git
+cd rask
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
